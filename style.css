@@ -2,11 +2,14 @@
     background: #1F2937;
     color: white;
     padding: 0px 100px 45px 100px;
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 40px;
 }
 
 ul {
@@ -28,8 +31,7 @@ ul {
 
 .sec1-content {
     display: flex;
-    flex: 1;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+    /* align-items: flex-end;  */
 }
