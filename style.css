@@ -1,32 +1,34 @@
 body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
     margin: 0;
+    height: 100vh;
     /* min-height: 100%; */
     /* overflow: visible; */
     /* font-family: Roboto, sans-serif; */
+    /* flex: 1; */
 }
 
 .first-section {
     background: #1F2937;
     color: white;
     padding: 0px 200px 100px 200px;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
 }
 
 ul {
     list-style-type: none;
     display: flex;
     gap: 18px;
+    font-size: 18px;
 }
 
 .logo {
@@ -41,12 +43,10 @@ ul {
     justify-content: space-between;
 }
 
-/* .sec1-content,
-.sec4-content {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-} */
+.sec1-content {
+    padding-right: 50px;
+    /* background: blue; */
+}
 
 .sec1-main-title {
     font-size: 48px;
@@ -56,12 +56,13 @@ ul {
 
 .sec1-subtext {
     padding: 10px 0;
-    /* width:  */
+    font-size: 18px;
 }
 
 button {
     padding: 8px 30px;
     border-radius: 8px;
+    font-size: 18px;
 }
 
 button.sec1-sign-up {
@@ -79,10 +80,14 @@ button.sec4-sign-up {
 }
 
 .image-container {
-    background: gray;
+    display: flex;
     align-items: center;
     justify-content: center;
+    background: gray;
     padding: 80px 100px;
+    width: 60%;
+    font-size: 18px;
+    /* padding: 80px 90px; */
 }
 
 .sec2-title {
@@ -103,6 +108,7 @@ button.sec4-sign-up {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     font-style: italic;
     font-size: 36px;
 }
@@ -114,17 +120,32 @@ button.sec4-sign-up {
     font-size: 30px;
 }
 
+.fourth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px 100px 200px;
+}
+
 .sec4-body {
     background: #3882f6;
     color: white;
+    padding: 50px 100px;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.sec4-title {
+    font-weight: bold;
 }
 
 .footer {
     display: flex;
     justify-content: center;
+    align-items: center;
     background: #1f2937;
     color: #e5e7eb;
-    /* margin: 0;
-    padding: 0; */
-    /* height: 72px; */
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
