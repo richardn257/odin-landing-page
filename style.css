@@ -5,13 +5,13 @@ body {
     height: 100vh;
     /* min-height: 100%; */
     /* overflow: visible; */
-    /* font-family: Roboto, sans-serif; */
-    /* flex: 1; */
+    font-family: Roboto, sans-serif;
+    flex: 1;
 }
 
 .first-section {
     background: #1F2937;
-    color: white;
+    color: #F9FAF8;
     padding: 0px 200px 100px 200px;
     /* display: flex;
     flex-direction: column; */
@@ -21,7 +21,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 80px;
+    padding-bottom: 100px;
 }
 
 ul {
@@ -29,6 +29,11 @@ ul {
     display: flex;
     gap: 18px;
     font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
 }
 
 .logo {
@@ -43,7 +48,8 @@ ul {
     justify-content: space-between;
 }
 
-.sec1-content {
+.sec1-content,
+.sec4-content {
     padding-right: 50px;
     /* background: blue; */
 }
@@ -85,18 +91,46 @@ button.sec4-sign-up {
     justify-content: center;
     background: gray;
     padding: 80px 100px;
-    width: 60%;
+    width: 20%;
     font-size: 18px;
     /* padding: 80px 90px; */
+}
+
+.second-section {
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
 
 .sec2-title {
     display: flex;
     justify-content: center;
-    padding: 40px;
+    padding-bottom: 40px;
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+}
+
+.sec2-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.info {
+    width: 150px;
+}
+
+.sec2-box {
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+}
+
+.text {
+    text-align: center;
+    font-size: 18px;
 }
 
 .third-section {
@@ -105,19 +139,15 @@ button.sec4-sign-up {
 }
 
 .quote {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    text-align: justify;
     font-style: italic;
     font-size: 36px;
 }
 
 .sign {
-    display: flex;
-    justify-content: flex-end;
     font-weight: bold;
     font-size: 30px;
+    text-align: right;
 }
 
 .fourth-section {
@@ -132,7 +162,7 @@ button.sec4-sign-up {
     color: white;
     padding: 50px 100px;
     border-radius: 10px;
-    width: 100%;
+    width: 50%;
     font-size: 18px;
 }
 
